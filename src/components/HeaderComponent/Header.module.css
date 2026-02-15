@@ -1,0 +1,128 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 300px;
+
+    position:sticky;
+    top: 0;
+    z-index: 100;
+    font-family: inter, sans-serif;
+}
+
+.highlight {
+    color: #aa0100; 
+}
+
+.nav {
+    display: flex;
+    gap: 24px;
+}
+
+.nav a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7b7b7b;
+    text-decoration: none;
+    cursor: pointer;;
+}
+
+.nav a:active, .nav a:hover {
+    color: #fff;
+}
+
+
+h1 {
+    font-weight: 600;
+    font-size: 32px;
+    color: #fff;
+}
+
+.profile {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.profileName { 
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+.profileImage {
+    width: 40px;
+    height: 40px;
+}
+
+.arrowIcon {
+    color: #fff;
+    width: 15px;
+    height: 15px;
+}
+
+.burger {
+    display: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media (max-width: 1280px) {
+    .container {
+        padding: 16px 40px;
+    }
+    
+    h1 {
+        font-size: 28px;
+    }
+
+    .nav a { font-size: 12px;}
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 16px 20px;
+    }
+
+    .nav {
+        gap: 16px;
+    }
+
+    .nav a {
+        font-size: 14px;
+    }
+
+    .profileName {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 16px 20px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .nav {
+        position: absolute;
+        top: 70px;
+        left: -100%;
+        flex-direction: column;
+        width: 100%;
+        padding: 40px;
+        transition: 0.3s ease-in-out;
+        z-index: 9;
+        gap: 32px;
+    }
+
+    .navOpen {
+        left: 0;
+    }
+
+    .profileName {
+        display: none;
+    }
+}
