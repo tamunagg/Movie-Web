@@ -24,7 +24,7 @@ section, h2, p {
     padding: 40px;
     display: flex;
     flex-direction: column;
-    gap: 102px;
+    gap: 95px;
 
 }
 
@@ -32,14 +32,6 @@ section {
     display: flex;
     flex-direction: column;
     gap: 8px;
-}
-
-.infoSection {
-    margin-top: 15px;
-}
-
-.descriptionSection {
-    margin-bottom: 18px;
 }
 
 .smallText {
@@ -111,7 +103,6 @@ section {
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 50%;
     height: auto;
     max-height: 100%;
     object-fit: contain;
