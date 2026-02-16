@@ -2,8 +2,8 @@ import { useState } from 'react'
 import './App.css'
 import Header from './components/HeaderComponent/Header'
 import MovieAd from './components/MovieAdComponent/MovieAd'
-import SearchRow from './components/SearchRowComponent/SearchRow'
-
+import SearchRow from './components/SearchRowComponent/SearchRow
+  
 function App() {
   return (
     <div className='app' >
