@@ -7,6 +7,7 @@
     top: 0;
     z-index: 100;
     font-family: inter, sans-serif;
+    background-color: #0e0e0e;
 }
 
 .highlight {
@@ -77,44 +78,34 @@ h1 {
 
     .nav a { font-size: 12px;}
 }
-
 @media (max-width: 768px) {
+
     .container {
         padding: 16px 20px;
-    }
-
-    .nav {
-        gap: 16px;
-    }
-
-    .nav a {
-        font-size: 14px;
-    }
-
-    .profileName {
-        display: none;
-    }
-}
-
-@media (max-width: 768px) {
-    .container {
-        padding: 16px 20px;
+        position: relative;
     }
 
     .burger {
         display: block;
+        z-index: 101;
     }
 
     .nav {
-        position: absolute;
-        top: 70px;
+        position: fixed;
+        top: 0;
         left: -100%;
+        height: 100vh;
+        width: 70%;
+        background-color: #111;
         flex-direction: column;
-        width: 100%;
-        padding: 40px;
-        transition: 0.3s ease-in-out;
-        z-index: 9;
+        padding: 100px 30px 40px;
         gap: 32px;
+        transition: left 0.3s ease;
+        z-index: 100;
+    }
+
+    .nav a {
+        font-size: 18px;
     }
 
     .navOpen {
