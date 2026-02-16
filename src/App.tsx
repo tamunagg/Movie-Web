@@ -2,7 +2,8 @@ import { useState } from 'react'
 import './App.css'
 import Header from './components/HeaderComponent/Header'
 import MovieAd from './components/MovieAdComponent/MovieAd'
-import SearchRow from './components/SearchRowComponent/SearchRow
+import SearchRow from './components/SearchRowComponent/SearchRow'
+import MovieCard from './components/MovieCardComponent/MovieCard'
   
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <MovieAd />
       <h2>Recommended</h2>
       <SearchRow />
+      <MovieCard />
       </div>
     </div>
   )
