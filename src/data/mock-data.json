@@ -1,0 +1,28 @@
+{
+  "filters": {
+    "years": [2024, 2023, 2022, 2021],
+    "categories": ["Action", "Fantasy", "Drama", "Comedy"]
+  },
+  "featured": {
+    "subtitle": "Movie of the month",
+    "title": "The Batman",
+    "imdbRating": 5,
+    "category": "Fantasy",
+    "year": 2022,
+    "description": "The Batman is a 2022 American superhero film...",
+    "mainImg": "batman.png",
+    "bgImg": "Adbg.png"
+  },
+  "recommended": [
+    { "id": 1, "title": "The Killer", "poster": "poster1.png", "category": "Action", "year": 2023 },
+    { "id": 2, "title": "I Came By", "poster": "poster2.png", "category": "Drama", "year": 2022 },
+    { "id": 3, "title": "The Witcher", "poster": "poster3.png", "category": "Fantasy", "year": 2021 },
+    { "id": 4, "title": "Into the Ashes", "poster": "poster4.png", "category": "Action", "year": 2024 },
+    { "id": 5, "title": "The Devil's Own", "poster": "poster5.png", "category": "Drama", "year": 2023 },
+    { "id": 6, "title": "Priceless", "poster": "poster6.png", "category": "Comedy", "year": 2021 },
+    { "id": 7, "title": "In the First", "poster": "poster7.png", "category": "Action", "year": 2022 },
+    { "id": 8, "title": "How to Get Away with Murder", "poster": "poster8.png", "category": "Comedy", "year": 2024 }
+  ]
+}
+
+

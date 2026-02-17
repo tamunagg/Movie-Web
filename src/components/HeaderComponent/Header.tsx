@@ -1,6 +1,6 @@
 import { ChevronDown, Menu, X } from 'lucide-react';
 import styles from './Header.module.css'
-import profilePic from '../../assets/ProfilePicture.png'
+import profilePic from '../../../public/assets/ProfilePicture.png'
 import { useState } from 'react';
 
 function Header() {
